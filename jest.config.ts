@@ -6,4 +6,4 @@ const config: Config = {
   testMatch: ['**/?(*.)+(spec|test).ts'], // permite .test.ts ou .spec.ts
 };
 
-export default config;
+module.exports = config;
